@@ -1,0 +1,27 @@
+.primary {
+  color: #0089cd;
+}
+
+.secondary {
+  color: #777;
+}
+
+.grey {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.darkGrey {
+  color: #333;
+}
+
+.primaryBackground {
+  background: #0089cd;
+}
+
+.secondaryBackground {
+  background: #777;
+}
+
+.darkGreyBackground {
+  background: #333;
+}

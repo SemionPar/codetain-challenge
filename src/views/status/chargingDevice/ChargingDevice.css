@@ -1,0 +1,35 @@
+.connectedDevice {
+  margin: 10px;
+  padding: 10px;
+}
+
+.connectedDeviceText {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.notCharging {
+  border-radius: 50%;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 0 7px 5px #333;
+}
+
+.charging {
+  border-radius: 50%;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 0 5px 3px #4CAF50;
+  animation: charging 1.5s linear infinite alternate;
+}
+
+@keyframes charging {
+  to {
+    box-shadow: 0 0 20px 10px #3E7D3E;
+  }
+}
+
+.prioritized {
+  background-color: #fff6b1;
+}

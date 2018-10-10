@@ -1,0 +1,11 @@
+.header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  composes: darkGreyBackground from "../../styles/colors.css";
+  display: flex;
+  justify-content: space-between;
+  flex: 0 1 48px;
+  min-height: 48px;
+}

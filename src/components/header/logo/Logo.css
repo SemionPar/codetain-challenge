@@ -1,0 +1,9 @@
+.logo {
+  display: block;
+  height: 20px;
+}
+
+.logoContainer {
+  display: block;
+  padding: 14px 16px;
+}

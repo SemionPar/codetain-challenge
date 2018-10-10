@@ -1,0 +1,27 @@
+.footer {
+  flex: 0 1 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  overflow: hidden;
+  min-height: 1.5rem;
+  composes: grey from "../../styles/colors.css";
+
+  padding-bottom: 5px;
+  background: linear-gradient(
+    to bottom,
+    rgb(52, 52, 53) 0%,
+    rgb(40, 39, 42) 50%,
+    rgb(34, 34, 34) 100%
+  ) left bottom #333 no-repeat;
+  background-size: 100% 7px;
+}
+
+.footerText {
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 50%;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 70%;
+}
